@@ -17,6 +17,7 @@ this folder includes images used as targets in the original Isola et al. study. 
 ./Images/Fillers/: 
 
 this folder includes images used as fillers in the Isola study (e.g., used as attention check or fillers that never repeated). 
+
 2. Extract image features from various layers of VGG
 For extracting features from layers 1-7 (corresponding to the 5 maxpooling convolutional layers and 2 fully connected layers) referred to in the paper, run the following function in ./Script/DCNN (using layer 7 as an example):
 ```
