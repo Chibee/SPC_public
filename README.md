@@ -47,6 +47,6 @@ python -u Train_SPC_original.py 7
 ```
 
 ## Relate measures to memorability
-We provide a jupyter notebook (./Scripts/Correlate with memorability.ipynb) that read in the distinctiveness and reconstruction error measures and relate them to memorability. 
+We provide a jupyter notebook (./Scripts/Correlate with memorability.ipynb) that read in the distinctiveness and reconstruction error measures and relate them to memorability. The memorability scores in ./Image_info/target_info_IsolaEtAl.csv are the memory performance measured in Isola et al. (2014)
 
 
