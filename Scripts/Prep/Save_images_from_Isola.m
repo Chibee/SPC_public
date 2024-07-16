@@ -1,6 +1,6 @@
 % Load and convert the target images 
 load('../../IsolaEtAl/Image data/target_images.mat')
-img_dir = '../../Images_2/Targets/';
+img_dir = '../../Images/Targets/';
 
 % Note that there are 2400 images in the img matrix but only the first 2222
 % are of interest. The remaining are texturized images. 
@@ -12,7 +12,7 @@ end
 clear img
 % Load and convert the filler images 
 load('../../IsolaEtAl/Image data/filler_images.mat')
-filler_img_dir = '../../Images_2/Fillers/';
+filler_img_dir = '../../Images/Fillers/';
 
 num_fillers = size(img,4);
 
