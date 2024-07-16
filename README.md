@@ -7,15 +7,16 @@ This repo contains the basic codes for extracting distinctiveness and training t
 ```
 git clone https://github.com/Qi-Lin7/SPC_public
 ```
-3. Install the conda environment
+2. Install the conda environment
 ```
 conda env create -f CNN_mem.yml
 ```
-5. Download the Isola dataset from http://web.mit.edu/phillipi/Public/WhatMakesAnImageMemorable/ and place it under ./IsolaEtAl/
-6. Download the VGG-16 model used in the paper into the top directory of this repo (i.e., at the same level of Scripts/Images) from: https://github.com/GKalliatakis/Keras-VGG16-places365. I am using the Hybrid 1365 classes model which is trained on both ImageNet images and their Places dataset and had the highest overall classification results.
+3. Download the Isola dataset from http://web.mit.edu/phillipi/Public/WhatMakesAnImageMemorable/ and place it under ./IsolaEtAl/
+4. Download the VGG-16 model used in the paper into the top directory of this repo (i.e., at the same level of Scripts/Images) from: https://github.com/GKalliatakis/Keras-VGG16-places365. I am using the Hybrid 1365 classes model which is trained on both ImageNet images and their Places dataset and had the highest overall classification results.
 
 ## Preparation
 1. Convert the images: The image data in Isola et al. (2014) were stored in matlab files so we should convert them into jpg files for ease of viewing and later processing. You can use ./Scripts/Prep/Save_images_from_Isola.m or write your own python version to do so. The resulting jpg files should be stored in:
+
 ./Images/Targets/: 
 
 this folder includes images used as targets in the original Isola et al. study. Only the first 2222 images are the actual targets (i.e., those that came with memorability scores).  
